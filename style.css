@@ -145,6 +145,7 @@ h1, h2, h3{
 .text-sm{
     font-size: 1.3rem;
 }
+
 .py{
     padding: 10.9rem 0;
 }
@@ -154,7 +155,7 @@ h1, h2, h3{
 
 /* header */
 .header{
-    min-height: 100px;
+    min-height: 50px;
 }
 .navbar{
     position: fixed;
@@ -169,6 +170,11 @@ h1, h2, h3{
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
+
+.navbar > .container{
+    height: 20px;
+}
+
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
@@ -243,6 +249,7 @@ button[class ^= navbar]:hover{
   }
 .nav-item{
     margin: 1.4rem 0;
+    font-size: 24px;
 }
 .nav-link{
     opacity: 0.8;
@@ -272,6 +279,7 @@ button[class ^= navbar]:hover{
 
 .text-box {
     max-width: 500px;
+    margin-top: 80px;
     padding: 20px;
     background-color: white;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -384,7 +392,7 @@ button[class ^= navbar]:hover{
 .content {
     display: flex;
     flex-wrap: wrap;
-    padding: 200px;
+    padding: 70px 100px;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
@@ -418,14 +426,13 @@ button[class ^= navbar]:hover{
     z-index: 1;
 }
 .text h2 {
-    font-size: 2.2rem;
+    font-size: 5rem;
     margin-bottom: 20px;
     color: #333;
 }
 
 .text p {
     margin-bottom: 15px;
-    font-size: 1.2rem;
     color: #555;
     line-height: 1.6;
 }
@@ -462,12 +469,6 @@ button[class ^= navbar]:hover{
     .btn {
         padding: 10px 20px;
     }
-}
-.additional-info {
-    background-color: rgba(255, 255, 255, 0.9); /* White background with some transparency */
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 20px; /* Space between the button and the additional info */
 }
 
 /*-----------------------------------------------------------------------------------about section ---------------------------------------*/
