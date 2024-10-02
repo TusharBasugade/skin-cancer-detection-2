@@ -35,7 +35,7 @@ window.addEventListener('resize', () =>{
 });
 
 // toggle button for additional info
-document.getElementById('furthermorebtn').addEventListener('dblclick', function() {
+document.getElementById('furthermorebtn').addEventListener('click', function() {
     const additionalInfo = document.getElementById('additionalInfo');
     if (additionalInfo.style.display === 'none') {
         additionalInfo.style.display = 'block'; 
