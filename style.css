@@ -595,11 +595,11 @@ button[class ^= navbar]:hover{
     margin-right: 2rem;
 }
 
-/* footer */
+/* ------------------------------------------------------------Footer-----------------------------------------------------------------------*/
 .footer{
     background-color: var(--dark-color);
 }
-.footer-item{
+/*.footer-item{
     margin-bottom: 6rem;
 }
 .footer-item:last-child{
@@ -653,11 +653,11 @@ button[class ^= navbar]:hover{
 }
 .footer-item .appointment-info li span{
     margin-left: 1rem;
-}
+} */
 .footer-links{
     border-top: 2px solid var(--dark-gray);
     padding: 4.5rem 0;
-}
+} 
 .footer-links li{
     margin: 0 2.4rem;
     font-size: 2rem;
@@ -675,6 +675,254 @@ button[class ^= navbar]:hover{
     background-color: var(--light-color);
     color: var(--fros-blue-color);
 }
+/* Common Section Styling */
+.detect-early-section {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.detect-early-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ffcc00;
+    animation: pulse 2s infinite;
+}
+
+.detect-early-section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #c7c7c7;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.cta-buttons button {
+    padding: 12px 24px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+}
+
+
+.cta-buttons .learn-more-btn {
+    background-color: #3498db;
+}
+
+.cta-buttons .learn-more-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Animation for header text */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+button.clicked {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
+
+/*contact us section for footer*/
+
+.contact-section {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.contact-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #ffcc00;
+    animation: shake 2s ease-in-out infinite;
+}
+
+.contact-section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #c7c7c7;
+}
+
+.contact-btn-container {
+    margin-top: 20px;
+}
+
+.contact-us-btn {
+    padding: 12px 24px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-us-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Animation for header text */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-3px); }
+    50% { transform: translateX(3px); }
+    75% { transform: translateX(-3px); }
+    100% { transform: translateX(0); }
+}
+
+/*subscribe section for footer */
+/* Subscribe Section Styling */
+.subscribe-section {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.subscribe-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ffcc00;
+    animation: pulse 2s infinite;
+}
+
+.subscribe-section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #c7c7c7;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.cta-buttons button {
+    padding: 12px 24px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-buttons button:hover {
+    background-color: #ff896d;
+}
+
+.cta-buttons .subscribe-btn {
+    background-color: #2ecc71;
+}
+
+.cta-buttons .subscribe-btn:hover {
+    background-color: #27ae60;
+}
+
+/* Animation for header text */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Button Click Animation */
+button.clicked {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
+/* Quick Links Section Styling */
+.footer-item {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.footer-head {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #ffcc00;
+    text-align: center;
+    animation: pulse 2s infinite;
+}
+
+.footer-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-item li {
+    margin-bottom: 10px;
+}
+
+.footer-item a {
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: block;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.footer-item a:hover {
+    color: #ef3e0d;
+    background-color: #65aca6;
+    transition: all 0.3s ease;
+}
+
+/* Animation for header text */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 
 
 

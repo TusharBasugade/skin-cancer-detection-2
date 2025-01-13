@@ -71,3 +71,47 @@ window.onclick = function(event) {
 function toggleDetails(element) {
     element.classList.toggle('active');
 }
+
+
+//Footer 
+// Add simple button click animation
+// Add button click effects
+document.querySelectorAll('.cta-buttons button').forEach(button => {
+    button.addEventListener('click', function() {
+        // Add a temporary clicked effect
+        this.classList.add('clicked');
+        setTimeout(() => this.classList.remove('clicked'), 150);
+
+        // Specific actions based on button type
+        if (this.classList.contains('learn-more-btn')) {
+            alert('Learn more about our 3D body photography technology!');
+        } else if (this.classList.contains('contact-us-btn')) {
+            alert('Contact us for more information. Your health is our priority!');
+        }
+    });
+});
+
+// Add button click effect for "Contact Us"
+const contactButton = document.querySelector('.contact-us-btn');
+contactButton.addEventListener('click', function() {
+    alert('Thank you for reaching out! We will get back to you shortly.');
+    this.style.backgroundColor = '#2ecc71'; // Change to a green color to show success
+});
+// Add button click effect and subscription logic
+document.querySelector('.subscribe-btn').addEventListener('click', function() {
+    // Add a temporary clicked effect
+    this.classList.add('clicked');
+    setTimeout(() => this.classList.remove('clicked'), 150);
+
+    // Show subscription alert
+    alert('Thank you for subscribing to our newsletter! Stay tuned for the latest updates.');
+});
+// Add click effect for quick links
+document.querySelectorAll('.quick-link').forEach(link => {
+    link.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default action for demo
+        alert(`You clicked on: ${this.textContent}`);
+    });
+});
+
+
