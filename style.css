@@ -713,12 +713,12 @@ button[class ^= navbar]:hover{
     border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  
 }
 
 
 .cta-buttons .learn-more-btn {
     background-color: #3498db;
+    margin-top: 20px;
 }
 
 .cta-buttons .learn-more-btn:hover {
@@ -780,7 +780,9 @@ button.clicked {
     border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 25px;
 }
+
 
 .contact-us-btn:hover {
     background-color: #2980b9;
@@ -841,7 +843,8 @@ button.clicked {
 }
 
 .cta-buttons .subscribe-btn {
-    background-color: #2ecc71;
+    background-color: #2980b9;
+    margin-top: 0.1px;
 }
 
 .cta-buttons .subscribe-btn:hover {
